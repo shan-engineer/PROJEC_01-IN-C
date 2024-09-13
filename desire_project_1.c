@@ -149,9 +149,7 @@ void data_entry(){
       int no_guess = 0;
       srand(time(0));
       guessed = (rand()%(100+1));
-      
-      printf("%d \n",guessed);
-      
+
       do{
           printf("Guess your number\n");
           scanf("%d",&guess_no);
@@ -186,7 +184,7 @@ int main () {
     printf("3. Enter student data\n");
     printf("4. View student data\n");
     printf("5. Search student by roll number\n");
-    printf("6. Game zone\n");
+    printf("6. Number guessing game \n");
     printf("7. Exit the program\n");
     scanf("%d",&starting);
      getchar();
